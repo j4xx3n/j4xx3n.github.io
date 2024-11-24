@@ -6,10 +6,6 @@ layout: default
 
 Welcome to my portfolio
 
-
-## Education
-<img src="https://www.wtcsystem.edu/assets/Uploads/College/Logo/Madison-College-Logo-Horizontal-v2.png" alt="Alt Text" width="175" height="100">
-
 ## Projects
 [Creating a Portfolio with GitHub Pages]()
 
