@@ -9,7 +9,7 @@ Welcome to my portfolio
 
 ## Education
 [MATC](https://www.wtcsystem.edu/assets/Uploads/College/Logo/Madison-College-Logo-Horizontal-v2.png)
-
+<img src="https://www.wtcsystem.edu/assets/Uploads/College/Logo/Madison-College-Logo-Horizontal-v2.png" alt="Alt Text" width="300" height="200">
 
 ## Projects
 [Creating a Portfolio with GitHub Pages]()
