@@ -5,7 +5,7 @@ layout: default
 # Quinn Elko's Portfolio
 
 ## Projects
-- [Creating a Portfolio with GitHub Pages]()
+- [Creating a Portfolio with GitHub Pages](https://j4xx3n.github.io/CreatePortfoio.html)
 - [Hash Cracking Rig Setup](https://j4xx3n.github.io/HashCrackingRig.html) 
 
 ## Achievments
