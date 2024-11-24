@@ -8,11 +8,15 @@ Welcome to my portfolio
 
 
 ## Education
-![MATC](https://www.wtcsystem.edu/assets/Uploads/College/Logo/Madison-College-Logo-Horizontal-v2.png)
+[MATC](https://www.wtcsystem.edu/assets/Uploads/College/Logo/Madison-College-Logo-Horizontal-v2.png)
 
 
 ## Projects
+[Creating a Portfolio with GitHub Pages]()
+
 [Hash Cracking Rig Setup](https://j4xx3n.github.io/HashCrackingRig.html)
+
+
 
 
 
