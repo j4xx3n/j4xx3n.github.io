@@ -9,7 +9,7 @@ Welcome to my portfolio
 ## Projects
 [Creating a Portfolio with GitHub Pages]()
 <img src="https://j4xx3n.github.io/projects/1.png" alt="Alt Text" width="187" height="225">
-[Hash Cracking Rig Setup](https://j4xx3n.github.io/HashCrackingRig.html)
+[Hash Cracking Rig Setup](https://j4xx3n.github.io/HashCrackingRig.html) <img src="https://j4xx3n.github.io/projects/1.png" alt="Alt Text" width="187" height="225">
 
 
 
