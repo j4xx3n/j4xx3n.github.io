@@ -1,0 +1,103 @@
+---
+layout: default
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hash Cracking Rig Setup & Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        p {
+            margin: 10px 0;
+        }
+        ul {
+            margin: 10px 0 20px 20px;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-left: 4px solid #2c3e50;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hash Cracking Rig Setup & Results</h1>
+        <p><strong>By:</strong> Quinn Elko</p>
+        <p><strong>Date:</strong> 4-11-2023</p>
+    </header>
+
+    <section>
+        <h2>Introduction</h2>
+        <p>
+            In this demonstration, I will be setting up a hash cracking rig to identify any weak or vulnerable passwords that can be easily guessed or cracked by attackers. This project demonstrates how to identify potential security risks and vulnerabilities in a system that could lead to unauthorized access, data breaches, or other security incidents. By identifying weak passwords, system administrators can take proactive measures to strengthen password policies.
+        </p>
+        <p>
+            For this build, I’ll be using a Dell Precision 5820 with the original case, motherboard, and CPU. I’m adding 5 Quadro M2000 GPUs, 64GB of RAM, a 500GB SSD, and a 1TB HDD. I’ll be using Ubuntu 18.04 as the operating system and Hashcat as the application to crack hashes.
+        </p>
+    </section>
+
+    <section>
+        <h2>Components</h2>
+        <ul>
+            <li><strong>Motherboard & Case:</strong> Dell Precision 5820</li>
+            <li><strong>CPU:</strong> Intel Xeon W-2223</li>
+            <li><strong>GPU:</strong> (5) Quadro M2000</li>
+            <li><strong>Storage:</strong> 500GB SSD & 1TB HDD</li>
+            <li><strong>RAM:</strong> 64GB</li>
+            <li><strong>Operating System:</strong> Ubuntu</li>
+            <li><strong>Application:</strong> Hashcat</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Setup</h2>
+        <p>Insert the RAM, SSD, CPU, and all 5 GPUs.</p>
+        <p>Use a bootable USB to install Ubuntu 18.04.</p>
+        <p>Update and upgrade Ubuntu with the command:</p>
+        <pre>sudo apt update && sudo apt upgrade -y</pre>
+        <p>Install the necessary drivers for the GPUs with the command:</p>
+        <pre>sudo apt install nvidia-driver-xxx</pre>
+        <p>Install Hashcat with the command:</p>
+        <pre>sudo apt install hashcat && sudo apt install hashcat-nvidia -y</pre>
+    </section>
+
+    <section>
+        <h2>Testing</h2>
+        <p>I wrote a simple bash script that will guide a user through the process of testing a password.</p>
+    </section>
+
+    <section>
+        <h2>Security</h2>
+        <p>
+            Password cracking rigs can be used for legal and illegal reasons. It is crucial that password cracking rigs only be used for ethical and legal purposes, such as pen testing with the proper authorization.
+        </p>
+    </section>
+
+    <section>
+        <h2>Legal & Ethical Considerations</h2>
+        <p>
+            Hash cracking should only be performed with proper authorization and for ethical and legal purposes. Unauthorized access or misuse of hash cracking can result in legal and ethical consequences. It’s important to follow all laws and regulations related to cybersecurity and to obtain permission before performing any security tests.
+        </p>
+    </section>
+
+    <section>
+        <h2>Recommendations</h2>
+        <p>
+            To increase the security of a system, it is recommended to enforce strong password policies, such as requiring complex passwords with a mix of letters, numbers, and symbols. It’s also important to use a password manager to ensure passwords aren’t reused across multiple accounts. Another recommendation that would greatly increase password security is to implement two-factor authentication (2FA).
+        </p>
+    </section>
+</body>
+</html>
+
