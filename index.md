@@ -8,7 +8,7 @@ layout: default
 - [Creating a Portfolio with GitHub Pages]()
 - [Hash Cracking Rig Setup](https://j4xx3n.github.io/HashCrackingRig.html) 
 
-## Acheivments
+## Achievments
 
 ### National Cyber League
 <img src="https://j4xx3n.github.io/projects/5.png" alt="Alt Text" width="600" height="250">
