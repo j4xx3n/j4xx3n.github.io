@@ -6,7 +6,8 @@ layout: default
 
 ## Projects
 - [Creating a Portfolio with GitHub Pages](https://j4xx3n.github.io/CreatePortfoio.html)
-- [Hash Cracking Rig Setup](https://j4xx3n.github.io/HashCrackingRig.html) 
+- [Hash Cracking Rig Setup](https://j4xx3n.github.io/HashCrackingRig.html)
+- [Surveillance, Data, and AI (Research Poster)](https://github.com/j4xx3n/j4xx3n.github.io/blob/main/projects/Surveillance%2C%20Data%2C%20and%20AI.png)
 
 ## Achievments
 
