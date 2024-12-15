@@ -24,5 +24,30 @@ layout: default
     <h2>4. Push Your Changes to the Main Branch</h2>
     <p>Assuming your main branch is named <code>main</code> (verify with <code>git branch</code>):</p>
     <pre><code>git push origin main</code></pre>
+
+    <h1>How to Update a Repository After Cloning</h1>
+
+    <h2>1. Check for Updates</h2>
+    <p>Run the following command to fetch the latest changes from the remote repository:</p>
+    <pre><code>git fetch</code></pre>
+    <p>This will retrieve updates without applying them to your local branch.</p>
+
+    <h2>2. Merge Updates</h2>
+    <p>To update your current branch with the fetched changes, run:</p>
+    <pre><code>git merge origin/main</code></pre>
+    <p>This assumes your main branch is named <code>main</code>.</p>
+
+    <h2>3. Pull Changes Directly</h2>
+    <p>Alternatively, you can fetch and merge in one step using:</p>
+    <pre><code>git pull origin main</code></pre>
+
+    <h2>4. Resolve Conflicts (if any)</h2>
+    <p>If there are merge conflicts, Git will notify you. Open the conflicting files, resolve the issues, and then run:</p>
+    <pre><code>git add &lt;conflicted_file&gt;</code></pre>
+    <pre><code>git commit</code></pre>
+
+    <h2>5. Verify Updates</h2>
+    <p>Finally, check the status of your branch to ensure it is up to date:</p>
+    <pre><code>git status</code></pre>
 </body>
 </html>
