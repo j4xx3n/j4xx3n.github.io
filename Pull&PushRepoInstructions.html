@@ -1,26 +1,64 @@
+---
+layout: default
+---
 
 <!DOCTYPE html>
 <body>
-    <h1>How to Push Changes to the Main Branch</h1>
+    <h1>1. Cloning the Repo</h1>
+    
+    <h1>How to Generate a New SSH Key</h1>
 
-    <h2>1. Check the Status of Your Changes</h2>
-    <p>Run the following command to check the status of your changes:</p>
-    <pre><code>git status</code></pre>
-    <p>This will show you the files that have been modified or added.</p>
+    <h2>1. Open Git Bash</h2>
+    <p>Start by opening Git Bash on your local machine.</p>
 
-    <h2>2. Stage Your Changes</h2>
-    <p>Add the files you want to include in the commit:</p>
-    <pre><code>git add &lt;file_name&gt;</code></pre>
-    <p>To stage all changes at once:</p>
-    <pre><code>git add .</code></pre>
+    <h2>2. Generate a New SSH Key</h2>
+    <p>Run the following command, replacing <code>your_email@example.com</code> with your GitHub email address:</p>
+    <pre><code>ssh-keygen -t ed25519 -C "your_email@example.com"</code></pre>
+    <p><strong>Note:</strong> If your system does not support the Ed25519 algorithm, use:</p>
+    <pre><code>ssh-keygen -t rsa -b 4096 -C "your_email@example.com"</code></pre>
 
-    <h2>3. Commit Your Changes</h2>
-    <p>Add a meaningful commit message:</p>
-    <pre><code>git commit -m "Your commit message here"</code></pre>
+    <h2>3. Save the Key</h2>
+    <p>When prompted to "Enter a file in which to save the key", press <strong>Enter</strong> to accept the default file location, or specify a custom location by providing a filename. For example:</p>
+    <pre><code>Enter file in which to save the key (/c/Users/YOU/.ssh/id_ALGORITHM): [Press Enter]</code></pre>
 
-    <h2>4. Push Your Changes to the Main Branch</h2>
-    <p>Assuming your main branch is named <code>main</code> (verify with <code>git branch</code>):</p>
-    <pre><code>git push origin main</code></pre>
+    <h2>4. Add a Passphrase</h2>
+    <p>Type a secure passphrase when prompted. If you do not want a passphrase, press <strong>Enter</strong> without typing anything.</p>
+    <pre><code>
+    Enter passphrase (empty for no passphrase): [Type a passphrase]
+    Enter same passphrase again: [Type passphrase again]
+    </code></pre>
+
+    <h2>5. Notes on Key Types</h2>
+    <ul>
+        <li>GitHub no longer supports DSA keys (<code>ssh-dss</code>).</li>
+        <li>RSA keys generated after November 2, 2021, must use a SHA-2 signature algorithm.</li>
+        <li>Ensure your Git client is up to date for compatibility with modern key algorithms.</li>
+    </ul>
+
+     <h1>How to Add an SSH Key to GitHub</h1>
+
+    <h2>1. Navigate to GitHub Settings</h2>
+    <p>Log in to your GitHub account and navigate to <strong>Settings</strong>. Then go to the <strong>SSH and GPG keys</strong> section.</p>
+
+    <h2>2. Add a New SSH Key</h2>
+    <p>Click on <strong>New SSH key</strong>.</p>
+
+    <h2>3. Enter Key Details</h2>
+    <p>Fill in the required fields:</p>
+    <ul>
+        <li><strong>Title:</strong> Provide a descriptive name for the device connecting to GitHub.</li>
+        <li><strong>Key type:</strong> Select <em>Authentication Key</em>.</li>
+        <li><strong>Key:</strong> Paste the public key generated on your machine.</li>
+    </ul>
+
+    <h2>4. Save the Key</h2>
+    <p>Click <strong>Add SSH key</strong> to save your key.</p>
+
+
+
+    
+    <h1>2. Makeing changes to the repo</h1>
+    <p>Before making changes to the repo make sure to update to main branch.</p>
 
     <h1>How to Update a Repository After Cloning</h1>
 
@@ -46,5 +84,26 @@
     <h2>5. Verify Updates</h2>
     <p>Finally, check the status of your branch to ensure it is up to date:</p>
     <pre><code>git status</code></pre>
+    
+    <h1>How to Push Changes to the Main Branch</h1>
+
+    <h2>1. Check the Status of Your Changes</h2>
+    <p>Run the following command to check the status of your changes:</p>
+    <pre><code>git status</code></pre>
+    <p>This will show you the files that have been modified or added.</p>
+
+    <h2>2. Stage Your Changes</h2>
+    <p>Add the files you want to include in the commit:</p>
+    <pre><code>git add &lt;file_name&gt;</code></pre>
+    <p>To stage all changes at once:</p>
+    <pre><code>git add .</code></pre>
+
+    <h2>3. Commit Your Changes</h2>
+    <p>Add a meaningful commit message:</p>
+    <pre><code>git commit -m "Your commit message here"</code></pre>
+
+    <h2>4. Push Your Changes to the Main Branch</h2>
+    <p>Assuming your main branch is named <code>main</code> (verify with <code>git branch</code>):</p>
+    <pre><code>git push origin main</code></pre>
 </body>
 </html>
