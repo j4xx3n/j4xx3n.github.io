@@ -16,3 +16,7 @@ layout: default
 - [Try Hack Me](https://j4xx3n.github.io/achievments/NationalCyberLeague/NationalCyberLeague.html)
 
 
+## Instructions
+[Pull & Push Instrucitons](https://j4xx3n.github.io/projects/Pull_PushRepoInstructions/Pull&PushRepoInstructions.html)
+
+
