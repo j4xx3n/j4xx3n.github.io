@@ -17,6 +17,6 @@ layout: default
 
 
 ## Instructions
-[Pull & Push Instrucitons](https://j4xx3n.github.io/projects/Pull_PushRepoInstructions/Pull&PushRepoInstructions.html)
+- [Pull & Push Instrucitons](https://j4xx3n.github.io/projects/Pull_PushRepoInstructions/Pull&PushRepoInstructions.html)
 
 
