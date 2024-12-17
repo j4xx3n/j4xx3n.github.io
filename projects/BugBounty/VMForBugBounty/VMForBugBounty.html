@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setting up a VM for Bug Bounty</title>
+</head>
+<body>
+    <h1>Setting up a VM for Bug Bounty</h1>
+    
+    <h2>Creating the VM</h2>
+    <ol>
+        <li>Navigate to the Kali Linux website and locate the cloud installation section.</li>
+        <li>Click the marketplace button under Microsoft Azure. This will take you to the Azure Marketplace where we can buy Kali Linux on Azure. Click the “Get It Now” button.</li>
+        <li>This will take you to the Kali Linux page in your Azure portal. Click the “Create” button to configure the VM.</li>
+        <li>I created a new resource group called <code>Kali_Linux_BugBounty</code>. I gave the VM a name and used an existing key stored on Azure.</li>
+        <li>I created a new virtual network called <code>kali-network</code>.</li>
+        <li>I kept the rest of the settings as the default. When you’re done configuring the VM click the “Review + Create” button.</li>
+        <li>Once you have reviewed the configuration and everything is correct click the “Create” button.</li>
+    </ol>
+    
+    <h2>Creating Remote Connection</h2>
+    <ol>
+        <li>In the Azure portal navigate to the <code>kali-linux</code> machine then navigate to the connect section.</li>
+        <li>Open a terminal in a Linux machine. I’m using WSL.</li>
+        <li>Select the “Native SSH” option and enter the location of the SSH key on the local Linux machine. This will give you the command you need to run to connect to the machine.</li>
+        <li>Run the command as root to start the connection.</li>
+    </ol>
+    
+    <h2>Creating a Backup of the VM</h2>
+    <ol>
+        <li>In the Azure portal navigate to the <code>kali-linux</code> machine.</li>
+        <li>Click the “Capture” button then click “Restore Point”.</li>
+        <li>Give the restore point a name and create a restore point collection to store it in.</li>
+        <li>When you’re done configuring the restore point click the “Review + Create” button.</li>
+        <li>Once you have reviewed the configuration and everything is correct click the “Create” button.</li>
+    </ol>
+</body>
+</html>

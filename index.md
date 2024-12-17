@@ -5,6 +5,8 @@ layout: default
 # Quinn Elko's Portfolio
 
 ## Bug Bounty
+- [Setting Up a VM for Bug Bounty](https://j4xx3n.github.io/projects/BugBounty/VMForBugBounty.html)
+
 
 ## Projects
 - [Creating a Portfolio with GitHub Pages](https://j4xx3n.github.io/projects/CreatePortfolio/CreatePortfoio.html)
