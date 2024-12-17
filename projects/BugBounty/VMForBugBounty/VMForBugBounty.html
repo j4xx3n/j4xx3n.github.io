@@ -8,6 +8,12 @@ layout: default
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Setting up a VM for Bug Bounty</title>
+    <style>
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
     <h1>Setting up a VM for Bug Bounty</h1>
@@ -15,6 +21,7 @@ layout: default
     <h2>Creating the VM</h2>
     <ol>
         <li>Navigate to the Kali Linux website and locate the cloud installation section.</li>
+        <img src="https://j4xx3n.github.io/projects/BugBounty/VMForBugBounty/VMForBugBounty-1.png" alt="NationalCyberLeague-1">
         <li>Click the marketplace button under Microsoft Azure. This will take you to the Azure Marketplace where we can buy Kali Linux on Azure. Click the “Get It Now” button.</li>
         <li>This will take you to the Kali Linux page in your Azure portal. Click the “Create” button to configure the VM.</li>
         <li>I created a new resource group called <code>Kali_Linux_BugBounty</code>. I gave the VM a name and used an existing key stored on Azure.</li>
