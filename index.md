@@ -13,7 +13,7 @@ layout: default
 
 ## Achievments
 - [National Cyber League](https://j4xx3n.github.io/achievments/NationalCyberLeague/NationalCyberLeague.html)
-- [Try Hack Me](https://j4xx3n.github.io/achievments/NationalCyberLeague/NationalCyberLeague.html)
+- [Try Hack Me](https://j4xx3n.github.io/achievments/TryHackMe/TryHackMe.html)
 
 
 ## Instructions
