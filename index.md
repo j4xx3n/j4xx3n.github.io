@@ -5,7 +5,7 @@ layout: default
 # Quinn Elko's Portfolio
 
 ## Bug Bounty
-- [Setting Up a VM for Bug Bounty](https://j4xx3n.github.io/projects/BugBounty/VMForBugBounty/VMForBugBounty.html)
+`[Setting Up a VM for Bug Bounty](https://j4xx3n.github.io/projects/BugBounty/VMForBugBounty/VMForBugBounty.html)`
 
 
 ## Projects
